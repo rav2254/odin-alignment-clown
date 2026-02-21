@@ -1,0 +1,187 @@
+@font-face {
+    font-family: 'shlop';
+    src: url('fonts/shlop\ rg.otf');
+}
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: roboto;
+    margin: 0;
+    background-color: rgb(0, 0, 0);
+}
+
+/*header styling*/
+.header{
+    display: flex;
+    justify-content: space-around;
+    padding: 24px;
+    flex: 1 0 auto;
+
+}
+
+.logo{
+    width: auto;
+    height: 60px;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+    align-content: center;
+    border-radius: 35%;
+    align-items: center;
+}
+
+li{
+    background-color: red;
+    border-radius: 50%;
+}
+
+
+/*hero styling*/
+
+.hero{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.hero-content{
+    max-width: 600px;
+}
+
+.title{
+    font-family: 'shlop';
+    font-size: 48px;
+    color: rgb(252, 0, 0);
+    max-width: 300px;
+}
+
+.hero p{
+    color: white;
+    font-size: 24px;
+    line-height: 30px;
+    margin-right: 20px;
+}
+
+.hero button{
+    background-color: transparent;
+    font-size: 24px;
+    border: 3px solid;
+    border-radius: 4px;
+    border-color: rgb(182, 1, 1);
+    color: rgb(255, 0, 0);
+}
+
+/*cards styling*/
+
+.card-section{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+}
+
+h2{
+    text-align: center;
+    color: rgb(255, 0, 0);
+    font-size: 36px;
+    padding-top: 10px;
+    border-bottom: 1px solid;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    gap: 20px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+    max-width: 300px;
+}
+
+.card img{
+    border: 3px solid rgb(255, 0, 0);
+    border-radius: 10px;
+}
+
+
+/*review styling*/
+
+.review{
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    padding: 0px 16px;
+    color: aliceblue;
+    background-color: rgb(0, 0, 0);
+    border: 4px solid red;
+    border-radius: 5px;
+    margin: 30px auto;
+}
+
+.review h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;
+    padding: 0 30px;
+}
+
+.review p{
+    text-align: right;
+}
+
+/*Call to action styling*/
+.call-to-action{
+    background-color: rgb(255, 193, 193);
+    width: 1000px;
+    display: flex;
+    margin: 20px auto;
+    padding: 10px 30px;
+    justify-content: space-between;
+    border-radius: 10px;
+    gap: 200px;
+    align-items: center;
+}
+
+.content h3{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.content p{
+    font-size: 20px;
+}
+
+.call-to-action button{
+    color: rgb(255, 92, 63);
+    font-size: 24px;
+    padding: 10px;
+    background-color: black;
+    border: 5px solid;
+    border-radius: 12px;
+    margin: 20px 0px;
+}
+
+/* footer styling*/
+.footer{
+    display: flex;
+    background-color: #1f2937;
+    justify-content: center;
+    color: white;
+}
+
+
