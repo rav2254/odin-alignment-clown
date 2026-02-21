@@ -1,6 +1,6 @@
 # odin-alignment-clown
 
-This is the project i made Odin Project "Landing Page" assignment.
+This is the project i made for Odin Project "Landing Page" assignment.
 
 It's for a made-up scary clown hire company called "Hire-a-Scare"
 
