@@ -8,6 +8,7 @@ body{
     display: flex;
     flex-direction: column;
     align-content: space-around;
+    align-items: center;
     min-height: 100vh;
     font-family: roboto;
     margin: 0;
@@ -16,6 +17,7 @@ body{
 
 /*header styling*/
 .header{
+    align-self: stretch;
     display: flex;
     justify-content: space-around;
     padding: 24px;
@@ -183,6 +185,7 @@ h2{
     background-color: #1f2937;
     justify-content: center;
     color: white;
+    width: 100%;
 }
 
 
